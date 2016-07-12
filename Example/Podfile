@@ -1,0 +1,6 @@
+use_frameworks!
+target 'GNPreconditions_Tests' do
+  pod 'GNPreconditions', :path => '../'
+  
+  
+end
