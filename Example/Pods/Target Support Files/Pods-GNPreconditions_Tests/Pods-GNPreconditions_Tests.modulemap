@@ -1,0 +1,6 @@
+framework module Pods_GNPreconditions_Tests {
+  umbrella header "Pods-GNPreconditions_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

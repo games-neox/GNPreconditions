@@ -1,0 +1,6 @@
+framework module GNPreconditions {
+  umbrella header "GNPreconditions-umbrella.h"
+
+  export *
+  module * { export * }
+}
