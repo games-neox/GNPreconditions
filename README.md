@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/GNPreconditions.svg?style=flat)](http://cocoapods.org/pods/GNPreconditions)
 [![Platform](https://img.shields.io/cocoapods/p/GNPreconditions.svg?style=flat)](http://cocoapods.org/pods/GNPreconditions)
 
-Defenensive-code tool for Objective-C (enabled for `DEBUG` builds only)
+Defenensive-code tool for Objective-C/Swift (enabled for `DEBUG` builds only)
 
 ```objective-c
 @interface GNPreconditions : NSObject

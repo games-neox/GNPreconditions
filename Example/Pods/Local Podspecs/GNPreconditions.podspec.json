@@ -1,6 +1,6 @@
 {
   "name": "GNPreconditions",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "Defenensive-code tool for Objective-C",
   "homepage": "https://github.com/games-neox/GNPreconditions",
   "license": {
@@ -12,7 +12,7 @@
   },
   "source": {
     "git": "https://github.com/games-neox/GNPreconditions.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "platforms": {
     "ios": "8.0"

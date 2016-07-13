@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'EEA3642A230758EB0EBDECF1'
+               BlueprintIdentifier = '4AAA5A935A1B81992B150F7E'
                BlueprintName = 'GNPreconditions'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'GNPreconditions.framework'>

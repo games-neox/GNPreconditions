@@ -12,7 +12,9 @@
 
 
 
+#ifdef DEBUG
 static const NSString* const LOG_TAG = @"Preconditions";
+#endif // DEBUG
 
 
 @implementation GNPreconditions
@@ -48,7 +50,8 @@ static const NSString* const LOG_TAG = @"Preconditions";
 
     if (NO == [exceptionClass isSubclassOfClass:[NSException class]]) {
         @throw [NSException exceptionWithName:NSGenericException
-                reason:@"exceptionClass is not subclass of NSException class!" userInfo:nil];
+                reason:[NSString stringWithFormat:@"%@ is not subclass of NSException class!", exceptionClass]
+                userInfo:nil];
     }
 
     if (NO == testCondition) {
