@@ -84,8 +84,12 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods-GNPreconditions_Tests/GNExceptions.framework"
+  install_framework "Pods-GNPreconditions_Tests/GNLog.framework"
   install_framework "Pods-GNPreconditions_Tests/GNPreconditions.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods-GNPreconditions_Tests/GNExceptions.framework"
+  install_framework "Pods-GNPreconditions_Tests/GNLog.framework"
   install_framework "Pods-GNPreconditions_Tests/GNPreconditions.framework"
 fi

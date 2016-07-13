@@ -5,7 +5,14 @@
 [![License](https://img.shields.io/cocoapods/l/GNPreconditions.svg?style=flat)](http://cocoapods.org/pods/GNPreconditions)
 [![Platform](https://img.shields.io/cocoapods/p/GNPreconditions.svg?style=flat)](http://cocoapods.org/pods/GNPreconditions)
 
-Defenensive-code tool for Objective-C
+Defenensive-code tool for Objective-C (enabled for `DEBUG` builds only)
+
+```objective-c
+@interface GNPreconditions : NSObject
++ (void)checkNotNil:(id)testObject :(NSString*)errorMessage;
++ (void)checkCondition:(BOOL)testCondition :(Class)exceptionClass :(NSString*)errorMessage;
+@end
+```  
 
 ## Example
 
@@ -13,7 +20,8 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 
-Minimum supported `iOS` version: `8.x`
+Minimum supported `iOS` version: `8.x`  
+Dependencies: `GNExceptions` & `GNLog`
 
 ## Installation
 
@@ -30,4 +38,4 @@ Games Neox, games.neox@gmail.com
 
 ## License
 
-GNLog is available under the MIT license. See the LICENSE file for more info.
+GNPreconditions is available under the MIT license. See the LICENSE file for more info.
