@@ -1,7 +1,5 @@
 use_frameworks!
 target 'GNPreconditions_Tests' do
-  pod 'GNExceptions'
-  pod 'GNLog'
   pod 'GNPreconditions', :path => '../'
   
 end
