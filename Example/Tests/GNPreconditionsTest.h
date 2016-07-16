@@ -23,8 +23,4 @@ __attribute__((objc_subclassing_restricted))
     NSString* defaultErrorMessage_;
 }
 
-- (void)setUp;
-
-- (void)tearDown;
-
 @end

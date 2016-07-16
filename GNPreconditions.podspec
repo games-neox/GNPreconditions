@@ -22,6 +22,3 @@ s.source_files = 'GNPreconditions/Classes/*'
 
 s.public_header_files = 'GNPreconditions/Classes/*.h'
 end
-
-
-

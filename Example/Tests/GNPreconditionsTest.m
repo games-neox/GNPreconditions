@@ -14,6 +14,8 @@
 
 - (void)setUp
 {
+    [super setUp];
+
     defaultExceptionClass_ = [DEFAULT_EXCEPTION class];
     defaultTestObject_ = [[NSObject alloc] init];
     defaultErrorMessage_ = @"default_error_message";
@@ -25,6 +27,8 @@
     defaultExceptionClass_ = nil;
     defaultTestObject_ = nil;
     defaultErrorMessage_ = nil;
+
+    [super tearDown];
 }
 
 @end
