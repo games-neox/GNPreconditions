@@ -10,6 +10,9 @@
 
 #import <GNPreconditions/GNPreconditions.h>
 
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Wnonnull"
+
 
 
 @implementation GNPreconditionsTest (Death)
@@ -53,3 +56,5 @@
 }
 
 @end
+
+#pragma clang diagnostic pop

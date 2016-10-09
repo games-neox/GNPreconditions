@@ -6,7 +6,7 @@
 //  Copyright © 2016 Games Neox. All rights reserved.
 //
 
-#import "GNPreconditions.h"
+#import <GNPreconditions/GNPreconditions.h>
 
 #import <GNLog/GNLog.h>
 
@@ -19,7 +19,7 @@ static const NSString* const LOG_TAG = @"Preconditions";
 
 @implementation GNPreconditions
 
-+ (void)checkNotNil:(id)testObject :(NSString*)errorMessage
++ (void)checkNotNil:(nullable id)testObject :(nonnull NSString*)errorMessage
 {
 #ifdef DEBUG
     if (nil == errorMessage) {
@@ -34,7 +34,7 @@ static const NSString* const LOG_TAG = @"Preconditions";
 }
 
 
-+ (void)checkCondition:(BOOL)testCondition :(Class)exceptionClass :(NSString*)errorMessage;
++ (void)checkCondition:(BOOL)testCondition :(nonnull Class)exceptionClass :(nonnull NSString*)errorMessage;
 {
 #ifdef DEBUG
     if (nil == exceptionClass) {

@@ -9,8 +9,8 @@ Defenensive-code tool for Objective-C/Swift (enabled for `DEBUG` builds only)
 
 ```objective-c
 @interface GNPreconditions : NSObject
-+ (void)checkNotNil:(id)testObject :(NSString*)errorMessage;
-+ (void)checkCondition:(BOOL)testCondition :(Class)exceptionClass :(NSString*)errorMessage;
++ (void)checkNotNil:(nullable id)testObject :(nonnull NSString*)errorMessage;
++ (void)checkCondition:(BOOL)testCondition :(nonnull Class)exceptionClass :(nonnull NSString*)errorMessage;
 @end
 ```  
 

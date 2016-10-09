@@ -21,7 +21,7 @@ __attribute__((objc_subclassing_restricted))
  * @throws GNNilPointerException if {@code testObject} is {@code nil}
  * @throws NSGenericException if {@code errorMessage} is {@code nil}
  */
-+ (void)checkNotNil:(id)testObject :(NSString*)errorMessage;
++ (void)checkNotNil:(nullable id)testObject :(nonnull NSString*)errorMessage;
 
 
 /**
@@ -32,6 +32,6 @@ __attribute__((objc_subclassing_restricted))
  * @throws [[exceptionClass alloc] init] if {@code testCondition} is {@code NO}
  * @throws GNNilPointerException if {@code exceptionClass} or {@code errorMessage} is {@code nil}
  */
-+ (void)checkCondition:(BOOL)testCondition :(Class)exceptionClass :(NSString*)errorMessage;
++ (void)checkCondition:(BOOL)testCondition :(nonnull Class)exceptionClass :(nonnull NSString*)errorMessage;
 
 @end

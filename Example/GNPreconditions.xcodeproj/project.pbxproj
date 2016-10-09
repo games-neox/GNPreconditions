@@ -14,15 +14,15 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		B6DF1D7916F9A9A5DC74D95E /* Pods_GNPreconditions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD62B882070B3329424424B6 /* Pods_GNPreconditions_Tests.framework */; };
+		B95DFFA083AE7E8792877D50 /* Pods_GNPreconditions_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAAC0AA12441971FDE1F7417 /* Pods_GNPreconditions_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2DA99A8E211F6AAA837E44E7 /* Pods-GNPreconditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNPreconditions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		33A53D241D36D0BA00B4222B /* GNPreconditionsTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GNPreconditionsTest.h; sourceTree = "<group>"; };
 		33A53D251D36D0D100B4222B /* GNPreconditionsTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GNPreconditionsTest.m; sourceTree = "<group>"; };
 		33A53D271D36D0EB00B4222B /* GNPreconditionsTest+Death.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GNPreconditionsTest+Death.m"; sourceTree = "<group>"; };
 		33A53D291D36D0FD00B4222B /* GNPreconditionsTest+Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "GNPreconditionsTest+Main.m"; sourceTree = "<group>"; };
+		3EDFF7FD61CF12EDEB7F883E /* Pods-GNPreconditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNPreconditions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -31,11 +31,11 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		87A70DB75FFBAFCF61184233 /* Pods-GNPreconditions_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNPreconditions_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A5704951EFD58F1BEEAE9AF3 /* Pods-GNPreconditions_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GNPreconditions_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		AE18388ACE76BEFA7209431D /* GNPreconditions.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = GNPreconditions.podspec; path = ../GNPreconditions.podspec; sourceTree = "<group>"; };
 		CB66BAFE4F9780EF7A7CDF23 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EAAC0AA12441971FDE1F7417 /* Pods_GNPreconditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNPreconditions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF104AF810E074AC949B53FD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		FD62B882070B3329424424B6 /* Pods_GNPreconditions_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GNPreconditions_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,7 +46,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				B6DF1D7916F9A9A5DC74D95E /* Pods_GNPreconditions_Tests.framework in Frameworks */,
+				B95DFFA083AE7E8792877D50 /* Pods_GNPreconditions_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,7 +60,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				B117B34854D3222412528B28 /* Pods */,
+				E492977A055A86915E060DAE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,7 +79,7 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				FD62B882070B3329424424B6 /* Pods_GNPreconditions_Tests.framework */,
+				EAAC0AA12441971FDE1F7417 /* Pods_GNPreconditions_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -116,11 +116,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		B117B34854D3222412528B28 /* Pods */ = {
+		E492977A055A86915E060DAE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DA99A8E211F6AAA837E44E7 /* Pods-GNPreconditions_Tests.debug.xcconfig */,
-				87A70DB75FFBAFCF61184233 /* Pods-GNPreconditions_Tests.release.xcconfig */,
+				A5704951EFD58F1BEEAE9AF3 /* Pods-GNPreconditions_Tests.debug.xcconfig */,
+				3EDFF7FD61CF12EDEB7F883E /* Pods-GNPreconditions_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -132,12 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "GNPreconditions_Tests" */;
 			buildPhases = (
-				52D660A4EEE2780E39685362 /* Check Pods Manifest.lock */,
+				A8D73C1C5DF8DEA74951A145 /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				308BE44B46E4FB25E37C86CD /* Embed Pods Frameworks */,
-				2B1CF76A35E63263B4D0F049 /* Copy Pods Resources */,
+				3518237F047F58B97F80EC78 /* [CP] Embed Pods Frameworks */,
+				586502B286C728DB66CA51A8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,29 +193,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2B1CF76A35E63263B4D0F049 /* Copy Pods Resources */ = {
+		3518237F047F58B97F80EC78 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		308BE44B46E4FB25E37C86CD /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -223,14 +208,29 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		52D660A4EEE2780E39685362 /* Check Pods Manifest.lock */ = {
+		586502B286C728DB66CA51A8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GNPreconditions_Tests/Pods-GNPreconditions_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A8D73C1C5DF8DEA74951A145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -340,7 +340,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2DA99A8E211F6AAA837E44E7 /* Pods-GNPreconditions_Tests.debug.xcconfig */;
+			baseConfigurationReference = A5704951EFD58F1BEEAE9AF3 /* Pods-GNPreconditions_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -363,7 +363,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87A70DB75FFBAFCF61184233 /* Pods-GNPreconditions_Tests.release.xcconfig */;
+			baseConfigurationReference = 3EDFF7FD61CF12EDEB7F883E /* Pods-GNPreconditions_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
